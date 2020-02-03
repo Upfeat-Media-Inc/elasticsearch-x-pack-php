@@ -1,7 +1,12 @@
 {
   "name": "elasticsearch/xpack",
   "description": "XPack namespace for Elasticsearch-PHP",
-  "keywords": ["search","client", "elasticsearch", "xpack"],
+  "keywords": [
+    "search",
+    "client",
+    "elasticsearch",
+    "xpack"
+  ],
   "type": "library",
   "license": "Apache 2",
   "authors": [
@@ -11,12 +16,12 @@
   ],
   "require": {
     "php": ">=5.4",
-    "elasticsearch/elasticsearch": "^6.0"
+    "elasticsearch/elasticsearch": "^7.0"
   },
   "require-dev": {
-      "cpliakas/git-wrapper": "~1.0",
-      "phpunit/phpunit": "3.7.*",
-      "symfony/yaml": "2.4.3 as 2.4.2"
+    "cpliakas/git-wrapper": "~1.0",
+    "phpunit/phpunit": "3.7.*",
+    "symfony/yaml": "2.4.3 as 2.4.2"
   },
   "autoload": {
     "psr-4": {
@@ -25,7 +30,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Xpack\\Tests\\":      "tests/"
+      "Xpack\\Tests\\": "tests/"
     }
   },
   "repositories": [
